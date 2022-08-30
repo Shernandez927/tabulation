@@ -10,8 +10,6 @@ function updateTime() {
 }
 setInterval(updateTime, 1000);
 
-// runs the inner functions once the page DOM is ready
-// $(document).ready(function () {
 
   // event listener to run the function based on the save button click
 $(".saveBtn").on("click", function() { 
