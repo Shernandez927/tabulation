@@ -18,7 +18,7 @@ body {
     background-color: transparent;
     color: black;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 5px solid black;
   }
   
   .description{
@@ -68,5 +68,10 @@ body {
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+    color: #000000;
   }
+
+  /* .saveBtn:click {
+    background-color:#0275d8;
+  } */
   
